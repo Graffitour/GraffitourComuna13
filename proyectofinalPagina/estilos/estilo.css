@@ -1,0 +1,208 @@
+.fondo-graffitour {
+    background-image: url('../imagenes/1.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45vh;
+    position: relative;
+    width: 97%;
+}
+
+.contenido-graffitour {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px 30px;
+    text-align: center;
+    color: white;
+    max-width: 800px;
+    height: 77%;
+}
+
+.contenido-graffitour h1 {
+    color: #F8F0DE;
+    margin-bottom: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+.contenido-graffitour p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: 'monserrat', sans-serif;
+}
+
+nav {
+    background-color: #fdf3e6;
+
+    padding: 10px;
+
+}
+
+nav ul {
+    list-style: none;
+
+    display: flex;
+
+    justify-content: center;
+
+    margin: 0;
+
+    padding: 10px; /* Add padding inside the border */
+
+
+}
+
+nav ul li {
+    margin: 0 15px;
+
+    font-size: 18px; /* Adjust font size for better readability */
+}
+
+nav ul li a {
+    text-decoration: none;
+
+    color: black;
+
+    font-weight: bold;
+    font-family: 'open sans', sans-serif;
+
+}
+
+nav ul li a:hover {
+    color: #555;
+
+}
+
+.seccion-info {
+    background-color: #fdf3e6;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px;
+    align-items: center;
+    justify-content: left;
+    font-family: 'open sans', sans-serif;
+}
+
+.seccion-info img {
+    width: 653px;
+    height: auto;
+    object-fit: cover;
+}
+
+.seccion-info .texto {
+    max-width: 500px;
+    color: #333;
+    font-size: 28px;
+    font-family:'open sans', sans-serif;
+    justify-content: left;
+    text-align: center;
+    margin: 0 auto; 
+    padding-top: 5%;
+}
+
+.seccion-info h2{
+    color: #222;
+    font-weight: bold;
+    margin-top: 0;
+    font-size: 30px;
+    justify-content: center;
+
+}
+
+.seccion-info h1{
+    color: #222;
+    font-weight: bold;
+    margin-top: 0;
+    font-size: 30px;
+    text-align: center; /* Center-align text */
+    margin: 0 auto; /* Center horizontally */
+    padding-top: 5%;
+
+}
+
+.seccion-info h2,
+.seccion-info p {
+    text-align: center; /* Center-align text */
+    margin: 0 auto; /* Center horizontally */
+    padding-top: 5%;
+}
+
+.seccion-info strong {
+    display: block;
+    margin-top: 10px;
+}
+
+.galeria {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+    background-color: #fdf3e6;
+}
+
+.galeria img {
+    max-width: 381px;
+    height: auto;
+    object-fit: cover;
+}
+
+.imagen-grande img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    padding-top: 3%;
+    justify-content: center;
+    display: flex;
+    background-color: #fdf3e6
+}
+
+footer {
+    background: linear-gradient(to bottom, #F8F0DE, #C48B7A);
+    padding: 40px 20px;
+    text-align: center;
+    color: #000;
+    position: relative; /* Enable positioning for child elements */
+}
+
+footer h1 {
+    font-size: 124px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer h2 {
+    font-size: 35px;
+    margin: 8px 0;
+    color: #000;
+    font-family: 'open sans', sans-serif;
+}
+
+footer button {
+    margin-top: 20px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #CD4633; /* Same color as the other button */
+    color: white;
+    border: none;
+    font-family: 'open sans', sans-serif;
+    cursor: pointer;
+}
+
+footer button:hover {
+    background-color: #a83a2a; /* Slightly darker shade on hover */
+}
+
+footer button:last-of-type {
+    position: absolute; /* Position the "INICIO" button */
+    right: 20px; /* Align to the right */
+    bottom: 20px; /* Add spacing from the bottom */
+}
+
