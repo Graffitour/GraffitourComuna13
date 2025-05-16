@@ -166,7 +166,7 @@ footer {
     padding: 40px 20px;
     text-align: center;
     color: #000;
-    position: relative; /* Enable positioning for child elements */
+    position: relative;
 }
 
 footer h1 {
